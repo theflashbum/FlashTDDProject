@@ -6,4 +6,8 @@
 <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">rpc.swc</AS3Classpath>
 <AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">utilities.swc</AS3Classpath>
 <AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">src</AS3Classpath>
+<AS3Classpath generateProblems="true" type="source" useAsSharedCode="false">test</AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">build/libs/FlexUnit4.swc</AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">build/libs/FlexUnit4CIListener.swc</AS3Classpath>
+<AS3Classpath generateProblems="false" type="lib" useAsSharedCode="false">build/libs/flexUnit4UIRunner.swc</AS3Classpath>
 </AS3Classpath>
