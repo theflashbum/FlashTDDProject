@@ -28,7 +28,7 @@
 		<echo message="disconnect    --> Removed git files from project" />
 	</target>
 	
-	<-- Deletes .git folder and .gitignore file -->
+	<!-- Deletes .git folder and .gitignore file -->
 	<target name="disconnect">
 		<delete dir="${basedir}/.git"/>
 		<delete file="${basedir}/.gitignore"/>
