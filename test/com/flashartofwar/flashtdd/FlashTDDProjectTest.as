@@ -14,10 +14,9 @@ package com.flashartofwar.flashtdd
 
 		[Test]
 
-		public function testHelloWorld() : void
+		public function testFlashTDDProject() : void
 		{
-			var test : String = "HelloWorld";
-			Assert.assertEquals(test, "HelloWorld");	
+			Assert.fail("Please add tests to this project");
 		}
 	}
 }
