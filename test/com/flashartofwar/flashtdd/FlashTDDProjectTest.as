@@ -16,8 +16,7 @@ package com.flashartofwar.flashtdd
 
 		public function testFlashTDDProject() : void
 		{
-			//Assert.fail("Please add tests to this project");
-			Assert.assertEquals("test","test");
+			Assert.fail("Please add tests to this project");
 		}
 	}
 }
