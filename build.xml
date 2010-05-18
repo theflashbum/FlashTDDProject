@@ -240,9 +240,15 @@ I am working on making my own but this one is so damn good I couldn't help mysel
             <arg value="${basedir}/build/codesigningCert.p12"/>
             <arg value="-storepass"/>
             <arg value="${password}"/>
+
+
             <arg value="${basedir}/bin/${project.name.versioned}.apk"/>
             <arg value="${basedir}/build/${project.name}-air-app.xml"/>
+
+            <arg value="-C"/>
             <arg value="${basedir}/bin"/>
+            <arg value="."/>
+
         </java>
     </target>
 
